@@ -1,0 +1,174 @@
+body{
+  background-color: #F1A7EF;
+}
+
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ba6d91;
+  rgba: 176, 10, 163, 0;
+}
+
+ul.nav li {
+  text-align: center;
+}
+
+ul.nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: bold;
+}
+
+ul.nav li hover; {
+  background-color: purple;
+}
+
+
+nav {
+text-align: center;
+
+    
+/**/  
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin-left: 70px;
+padding-top: 25px;
+
+
+position: relative;  
+}
+
+nav a {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 15px;
+}
+nav a:hover {
+color: #CEAA5C;
+
+} 
+
+nav a:before {
+content: '';
+display: block;
+height: 4px;
+width: 100%;
+background-color: #651184;
+
+position: absolute;
+top: 0;
+width: 0;
+transition: all ease-in-out 200ms; 
+}
+
+nav a:hover::before{
+width: 70%;
+}
+/*VOOR DE FOOTER*/
+.footer{
+   height: 140px; 
+   background-color: #ba6d91;
+   color: white;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+
+   display: flex;
+   justify-content: space-around;
+ }
+
+
+#container{
+  background-color: white;
+  position: relative;
+  width: 80%;
+  height: 1000px;
+  margin: auto;
+  box-shadow: 10px 10px 138px -19px rgba(0,0,0,0.75);
+
+}
+#regForm {
+  background-color:rgba(100,100,100,0.10);
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+  }
+
+body{
+  background-image: url("pinkk.png");
+  background-color: #cccccc;
+}
+.tab {
+  display: none;
+}
+button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+/*contact*/
+.ColumnRight {
+  margin-left: 55%;
+}
+
+  input[type=text], select {
+    width: 80%;
+    display: inline;
+    padding: 12px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  input[type=Email], select {
+    width: 80%;
+    display: inline;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#divform{
+  border-radius: 5px;
+  background-color: #ba6d91;
+  padding: 20px;
+  width: 30%;
+  position: absolute;
+  margin-top: 69px;
+  margin-left: 7%;
+}
+
+iframe {
+  margin-top: 16%;
+}
+img{
+
+width:  16%;
+height: 16%;
+margin-top: 10%;
+margin-right: 4%;
+margin-left: 4%;
+}
